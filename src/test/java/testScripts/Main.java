@@ -74,5 +74,6 @@ public class Main {
             assertEquals(true, portRoyalQuery.isDisplayed());
         }
         driver.close();
+        driver.quit();
     }
 }
